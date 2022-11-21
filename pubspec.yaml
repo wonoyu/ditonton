@@ -34,15 +34,19 @@ dependencies:
   flutter_bloc: ^8.1.1
   get_it: ^7.1.3
   core:
-    path: packages/core
+    path: core
   movies:
-    path: packages/movies
+    path: movies
   tv_series:
-    path: packages/tv_series
+    path: tv_series
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  test_cov_console: ^0.2.2
+  bloc_test: ^9.1.0
+  mockito: ^5.3.2
+  mocktail: ^0.3.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
