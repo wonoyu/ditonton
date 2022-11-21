@@ -187,7 +187,7 @@ void main() {
                 message: 'Failed')
           ]));
 
-      final watchlistButton = find.byType(ElevatedButton);
+      final watchlistButton = find.byKey(const Key('EButton Movie'));
 
       await tester
           .pumpWidget(_makeTestableWidget(const MovieDetailPage(id: 1)));

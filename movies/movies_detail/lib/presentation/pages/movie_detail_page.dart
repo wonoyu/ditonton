@@ -128,6 +128,7 @@ class DetailContent extends StatelessWidget {
                                   final isAddedWatchlist =
                                       state.isAddedToWatchlist;
                                   return ElevatedButton(
+                                    key: const Key('EButton Movie'),
                                     onPressed: () async {
                                       if (!isAddedWatchlist) {
                                         context
